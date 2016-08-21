@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul  3 16:40:58 2016
+Created on Sun Jul  3 18:38:59 2016
 
 @author: ben
 
-Number of routes: 1366
-Time: Time: 0.0003 seconds
+Number of routes: 648
+Time: 0.0001 seconds
 
 """
 
@@ -24,7 +24,7 @@ def sum_digits(n):
         n //= 10
     return s
 
-a = 2**1000
+a = math.factorial(100)
 a = sum_digits(a)
 
     
