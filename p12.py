@@ -20,6 +20,7 @@ def factors(n):
 
 start = time.time()
 
+
 j = 1
 num = 0
 while True:
