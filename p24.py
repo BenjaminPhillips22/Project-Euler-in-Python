@@ -2,7 +2,6 @@
 #Time: 0.0005 seconds
 
 import time
-import os
 import math
 
 start = time.time()
