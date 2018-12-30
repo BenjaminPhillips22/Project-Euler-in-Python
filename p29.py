@@ -1,7 +1,9 @@
 # number of terms; 9183
-# Time: 0.0 seconds
+# Time: 0.0118 seconds
 
 from time import time
+
+start = time()
 
 terms = set()
 
@@ -11,7 +13,6 @@ for a in range(2, 101):
 
 print("number of terms; " + str(len(terms)))
 
-start = time()
 elapsed = (time() - start)
 print("Time: " + str(round(elapsed, 4)) + " seconds")
 
