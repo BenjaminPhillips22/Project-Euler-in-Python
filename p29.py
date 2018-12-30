@@ -1,6 +1,5 @@
-# What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral?
-# sum of diagonal is 669171001
-# Time: 0.002 seconds
+# number of terms; 9183
+# Time: 0.0 seconds
 
 from time import time
 
