@@ -15,3 +15,6 @@ print("number of terms; " + str(len(terms)))
 start = time()
 elapsed = (time() - start)
 print("Time: " + str(round(elapsed, 4)) + " seconds")
+
+# in one line
+# len(set(a**b for a in range(2, 101) for b in range(2, 101)))
